@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Script Demo</title>
+	<script type="text/javascript" src="script.js">
+     var firstName = prompt("What is your first name?");
+    var lastName = prompt("What is your last name?");
+    var age = prompt("What is your full age?");
+
+    var fullName = firstName + " " + lastName
+
+    console.log("Your full name is " + fullName);
+    console.log("Your full name is " + firstName + " " + lastName);
+    console.log("Your full age is " + age + " years old");
+  </script>
+</head>
+<body>
+<h1>JS Stalker Solution</h1>
+
+</body>
+</html>
+
+<!---- --------------------------------------------------!>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>age calc</title>
+</head>
+<body>
+<h1>Age Calc Solution</h1>
+
+<script type="text/javascript" src="script.js">
+  var age = prompt("What is your age?");
+  var days = age * 365;
+  alert(age + " years is roughly " + days + " days");
+  
+</script>
+</body>
+</html>
